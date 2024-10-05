@@ -1,0 +1,101 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+.header {
+  width: 100%;
+  background-color: white;
+  border-bottom: 3px solid #c0432d;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+}
+
+.logo img {
+  height: 50px;
+}
+
+/* Navigation Links */
+.nav-links a {
+  margin: 0 1.5em;
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  border-bottom: 2px solid #00754a;
+}
+
+/* Right-side Buttons */
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.store-locator {
+  margin-right: 1.5em;
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+}
+
+.store-locator i {
+  margin-right: 0.5em;
+}
+
+/* Sign-in and Join Buttons */
+.sign-in-btn,
+.join-now-btn {
+  padding: 0.5em 1.5em;
+  border-radius: 25px;
+  font-size: 16px;
+  text-decoration: none;
+  margin-left: 1em;
+}
+
+.sign-in-btn {
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+}
+
+.sign-in-btn:hover {
+  background-color: #f4f4f4;
+}
+
+.join-now-btn {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.join-now-btn:hover {
+  background-color: #333;
+}
+
+/* Bottom Bar */
+.bottom-bar {
+  background-color: #1e3932;
+  text-align: center;
+  padding: 0.5em 0;
+}
+
+.bottom-bar p {
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
