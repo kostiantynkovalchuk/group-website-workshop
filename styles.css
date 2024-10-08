@@ -29,11 +29,11 @@ body {
 
 /* Navigation Links */
 .nav-links a {
-  margin: 0 1.5em;
   font-size: 16px;
   text-decoration: none;
   color: black;
   font-weight: 500;
+  margin-right: 5em;
 }
 
 .nav-links a:hover {
@@ -98,4 +98,5 @@ body {
   color: white;
   font-weight: bold;
   letter-spacing: 1px;
+  margin-right: 37em;
 }
